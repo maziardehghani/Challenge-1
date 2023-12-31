@@ -1,8 +1,8 @@
 <?php
-$names = ['mohammad','jljk', 'karim', 'abbas'];
+$names = ['mohamjklmad','jljk', 'karim', 'abbas'];
 
 
-echo most_diffrent_name($names) . " is the most diffrent letter name";
+echo most_diffrent_name($names);
 
 function most_diffrent_name(array $names)
 {
@@ -13,7 +13,7 @@ function most_diffrent_name(array $names)
         }
     }
 
-    return $maximum;
+    return counter_name_diffrent_letter($maximum);
 }
 
 function counter_name_diffrent_letter($name)
